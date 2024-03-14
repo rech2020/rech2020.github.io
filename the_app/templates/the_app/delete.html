@@ -1,0 +1,14 @@
+{% extends 'the_app/base.html' %}
+
+{% block title %}delete post.html{% endblock %}
+
+{% block content %}
+<h1>this is post deleting page</h1>
+<form method='Post'>
+    {% csrf_token %}
+    <table>
+    {{ form }}
+    </table>
+<button class="btn btn-success" name="delete" type="submit">Comfirm delete</button>
+</form>
+{% endblock %}
