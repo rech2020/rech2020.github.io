@@ -18,5 +18,4 @@ jobs:
           script: |
             cd ${{ secrets.PROJECT_PATH }}
             git pull ${{secrets.REPO_URL}}
-            docker-compose down 
-            docker-compose up --build -d
+            python manage.py runserver
