@@ -1,1 +1,1 @@
-# rech2020.github.io
+# how the hell do I deploy the server somebody help
