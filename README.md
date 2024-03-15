@@ -1,1 +1,1 @@
-# how the hell do I deploy the server somebody help
+# moved to https://rech2020.pythonanywhere.com/
